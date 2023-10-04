@@ -8,3 +8,5 @@ export default function Navbar() {
     </nav>
   );
 }
+
+// det finnes ett issue med den her navigeringen

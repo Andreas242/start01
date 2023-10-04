@@ -19,9 +19,15 @@ export default function DataComponent() {
           // og om vise om completed er true eller false
           "Loading..."}
       <div>
+        <h1>Data</h1>
         {data ? (
-          // skriv ut allt vi har i data (det er ett objekt) så vi får ut det på skjermen
-          'her skall det stå "userIdidtitlecompleted" el motsvarande'
+          // 1) er det ett problem at vi bruker h1 ovan?
+          // 2) skriv ut allt vi har i data (det er ett objekt) så vi får ut det på skjermen
+          // userId: 1
+          //id: 1
+          //title: delectus aut autem
+          //completed: false
+          "userId:1"
         ) : (
           <div>no data was returned</div>
         )}
