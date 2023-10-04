@@ -22,7 +22,18 @@ export default function DataComponent() {
       ) : (
         "Loading..."
       )}
-      <div>{data ? Object.keys(data) : <div>no data was returned</div>}</div>
+      <div>
+        <h2>Her er din data</h2>
+        {data ? (
+          Object.entries(data).map(([key, value]) => (
+            <li key={key}>
+              {key}: {value.toString()}
+            </li>
+          ))
+        ) : (
+          <div>no data was returned</div>
+        )}
+      </div>
     </div>
   );
 }
