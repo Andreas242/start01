@@ -15,7 +15,7 @@ export default function DataComponent() {
     <div>
       {data
         ? ""
-        : // hvis vi har data skall vi skrive ut title som en titel
+        : // hvis vi har data skall vi skrive ut dess title
           // og om vise om completed er true eller false
           "Loading..."}
       <div>
