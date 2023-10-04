@@ -22,7 +22,7 @@ export default function DataComponent() {
         <h1>Data</h1>
         {data ? (
           // 1) er det ett problem at vi bruker h1 ovan?
-          // 2) skriv ut allt vi har i data (det er ett objekt) så vi får ut det på skjermen
+          // 2) skriv ut allt vi har i data (det er troligen ett objekt) så vi får ut det på skjermen
           // userId: 1
           //id: 1
           //title: delectus aut autem
